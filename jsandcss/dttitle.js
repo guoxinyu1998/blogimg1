@@ -5,7 +5,7 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
     if (document.hidden) {
         //离开当前页面时标签显示内容
-        document.title = 'w(ﾟДﾟ)w 刚来就着急走？';
+        document.title = '嘿！刚来就着急走？';
         clearTimeout(titleTime);
     }
     else {
